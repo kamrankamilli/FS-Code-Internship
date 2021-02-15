@@ -97,5 +97,5 @@ function numOfRepeatingChar($str)
 $text_1 = "Proqramlasdirma";
 $text_2 = "AZERBAIJAN";
 $text_3 = "Kamran";
-numOfRepeatingChar($text_2);
+numOfRepeatingChar($text_3);
 ?>

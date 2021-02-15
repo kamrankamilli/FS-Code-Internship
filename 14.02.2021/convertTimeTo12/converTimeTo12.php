@@ -11,7 +11,7 @@ function convertTimeTo12($time)
 
     
 
-    if($hh>12)
+    if($hh>=12)
     {
         $meridian = "PM";
     }
@@ -43,7 +43,7 @@ function convertTimeTo12($time)
     echo " " , $meridian; 
 }
 
-$time_1 = "13:00";
+$time_1 = "00:01";
 $time_2 = "03:30";
 $time_3 = "23:05";
   

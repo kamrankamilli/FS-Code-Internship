@@ -16,40 +16,40 @@ function convertDate($str)
     switch($mm)
     {
         case 1:
-            echo $month[0];
+            echo $month[$mm-1];
             break;
         case 2:
-            echo $month[1];
+            echo $month[$mm-1];
             break;
         case 3:
-            echo $month[2];
+            echo $month[$mm-1];
             break;
         case 4:
-            echo $month[3];
+            echo $month[$mm-1];
             break;
         case 5:
-            echo $month[4];
+            echo $month[$mm-1];
             break;
         case 6:
-            echo $month[5];
+            echo $month[$mm-1];
             break;
         case 7:
-            echo $month[6];
+            echo $month[$mm-1];
             break;
         case 8:
-            echo $month[7];
+            echo $month[$mm-1];
             break;
         case 9:
-            echo $month[8];
+            echo $month[$mm-1];
             break;
         case 10:
-            echo $month[9];
+            echo $month[$mm-1];
             break;
         case 11:
-            echo $month[10];
+            echo $month[$mm-1];
             break;
         case 12:
-            echo $month[11];
+            echo $month[$mm-1];
             break;
         default:
             echo "Wrong month!";
